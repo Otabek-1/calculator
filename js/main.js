@@ -87,7 +87,7 @@ class Calculator {
 
     calculate () {
         const [num1,num2] = display.value.split(this.signView)
-        display.value = equal(num1 + this.signOperator + num2)
+        display.value = eval(num1 + this.signOperator + num2)
         this.signOperator = null
         this.signView = null
     }
