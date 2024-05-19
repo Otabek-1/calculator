@@ -120,5 +120,5 @@ remove.addEventListener('click', function () {
 })
 
 equal.addEventListener('click', function () {
-    return calc.equal()
+    return calc.calculate()
 })
